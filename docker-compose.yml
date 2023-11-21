@@ -32,7 +32,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.dockerfile
-    image: imagen-prueba-tpfinal:latest
+    image: josuevirreyra/hia-tpfinal-test:latest
     container_name: mi-app-tpfinal
     networks:
       - tpfinal-test
