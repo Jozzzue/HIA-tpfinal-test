@@ -30,8 +30,7 @@ services:
 
   mi-app-tpfinal:
     build:
-      context: .
-      dockerfile: Dockerfile.dockerfile
+      context: ./Skyloft
     image: josuevirreyra/hia-tpfinal-test:latest
     container_name: mi-app-tpfinal
     networks:

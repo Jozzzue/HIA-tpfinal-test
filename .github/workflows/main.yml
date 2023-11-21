@@ -22,6 +22,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: ./Skyloft
-          file: ./Dockerfile.dockerfile
+          file: ./Skyloft/Dockerfile.dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/hia-tpfinal-test:latest
