@@ -24,4 +24,4 @@ jobs:
           context: ./Skyloft
           file: ./Dockerfile.dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/hia-tpfinal-test-2:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/hia-tpfinal-test:latest
