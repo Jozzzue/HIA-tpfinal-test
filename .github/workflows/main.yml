@@ -24,4 +24,4 @@ jobs:
           context: .
           file: ./Dockerfile.dockerfile
           push: true
-          tags: hia-tpfinal-test:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/hia-tpfinal-test-2:latest
